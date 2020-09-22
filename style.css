@@ -1,8 +1,323 @@
-* {
-    background-color: black;
-    
+html
+{
+    scroll-behavior: smooth;
 }
 
-h1{
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.09),rgba(0,0,0,0.5)),url(hbpf2.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-flex;
+}
+
+.main-nav li a
+{
     color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    background: #f4511e;
+    border: 0.2px solid white;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.main-nav li a:hover
+{
+    position: -webskit-sticky;
+    position: stick;
+    top: 0;
+    border: 1px solid white;
+    opacity: 1;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1200px;
+    padding-right: 20px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.nama
+{
+    position: absolute;
+    width: 400px;
+    margin-right: 200px;
+    margin-top: 24px;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+h2
+{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.id
+{
+    height: 230px;
+    width: 300px;
+    background-color: #555;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 250px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.saya
+{
+    background: #FC5A5A;
+    width: 400px;
+    height: 850px;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.motivasi
+{
+    width: 390px;
+    height: 200px;
+    position: absolute;
+    margin-bottom: 480px;
+}
+
+p.motivasi
+{
+    font-family:  Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: justify;
+    font-size: 24px;
+    font-style: italic;
+    color: #FFB6B6;
+}
+
+.foto
+{
+    border-radius: 30px;
+    margin-top: 130px;
+    background-image: url(stpf.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    width: 410px;
+    height: 550px;
+}
+
+.wa
+{
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 1370px;
+}
+
+.ig
+{
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 1310px;
+}
+
+.mydesc
+{
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    margin-left: 1300px;
+}
+
+h1.bio
+{
+    font-family: 'Lato', 'Arial', sans-serif;
+    color: #240909;
+    position: absolute;
+    text-align: center;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+
+p.mydesc
+{
+    font-family: 'Lato', 'Arial', sans-serif;
+    color: #240909;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 230px;
+}
+
+p.mydesc2
+{
+    font-family: 'Lato', 'Arial', sans-serif;
+    color: #240909;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 390px;
+}
+
+.edu
+{
+    opacity: 0;
+    background: #FFFF;
+    width: 1440px;
+    height: 850px;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.smp
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    position: absolute;
+    margin-right: 1100px;
+    margin-bottom: 300px;
+
+}
+
+.sma
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    position: absolute;
+    margin-right: 250px;
+    margin-bottom: 300px;
+
+}
+
+.kuliah
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 200px;
+    margin-bottom: 300px;
+
+}
+
+.fixing
+{
+    margin-bottom: 900px;
+}
+
+img.smp
+{
+    width: 250px;
+    height: 250px;
+
+}
+
+img.sma
+{width: 250px; height: 250;}
+
+img.kuliah
+{width: 250px; height: 250;}
+
+p.descsmp
+{
+    text-align: center;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 25px;
+}
+
+.descsmp
+{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-left: -284px;
+    margin-bottom: -300px;
+}
+
+p.descsma
+{
+    text-align: center;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 25px;
+}
+
+.descsma
+{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-left: 0px;
+    margin-bottom: -300px;
+}
+
+p.descitb
+{
+    text-align: center;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 25px;
+}
+
+.descitb
+{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-left: 283px;
+    margin-bottom: -300px;
+}
+
+h1.istudy
+{
+    font-family: 'Lato', 'Arial', sans-serif;
+    position: absolute;
+    text-align: center;
+    color: #ec1212;
+    text-transform: none;
+    margin-left: 0px;
+    margin-bottom: 500px;
 }
